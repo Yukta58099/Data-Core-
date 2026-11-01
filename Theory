@@ -1,1 +1,41 @@
-Data Cleansing- Process of cleaning data.
+Data Cleansing- Data Cleansing is the process of detecting and correcting inaccurate, duplicate, incomplete, or inconsistent data to improve data quality
+Process of cleaning data.
+Remove duplicates
+Fix spelling mistakes
+Handle NULL values
+
+Data consistency- means data remains identical across systems, databases, and records.(The same data should have the same value everywhere.)
+
+Data validation - is the process of checking whether data satisfies predefined rules before it is stored or used.
+
+Data integrity ensures data is correct and relationships between data remain valid.
+
+Data Profiling is the process of analyzing data to understand its structure, quality, completeness, uniqueness, and patterns. 
+(is the process of examining and understanding data before using it)
+
+It helps answer questions like:
+
+How many records are there?
+How many NULL values exist?
+Are there duplicates?
+What is the data type?
+
+Data Pipeline is an automated process that extracts, transforms, and moves data from source systems to target systems for storage, reporting, or analysis.
+
+Data Governance is the set of policies, roles, and controls used to ensure data is secure, accurate, accessible, and properly managed.
+
+Data Quality refers to the accuracy, completeness, consistency, validity, uniqueness, and timeliness of data.
+
+A Data Lake stores raw structured, semi-structured, and unstructured data in its original format, whereas a Data Warehouse stores cleaned, structured, and processed data optimized for reporting and analytics.
+
+ETL = Extract → Transform → Load
+Extract data from source systems.
+Transform the data (clean, validate, remove duplicates, apply business rules).
+Load the transformed data into the target system.
+Plain Text
+
+ELT = Extract → Load → Transform
+Extract data from source systems.
+Load raw data into the warehouse first.
+Transform inside the warehouse using SQL or processing engines.
+
